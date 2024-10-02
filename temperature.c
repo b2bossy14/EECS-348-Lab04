@@ -42,8 +42,7 @@ int main() {
     // Repeat the loop if Kelvin is negative or the input scale is invalid
     } while ((input_scale < 1 || input_scale > 3) || (input_scale == 3 && temp_input < 0));
 
-    // Loop to get a valid output scale
-    // Loop to get a valid output scale
+    // Loop till we  get a valid output scale
     do {
         printf("\nConvert to (1) Celsius, (2) Fahrenheit, (3) Kelvin: ");
         scanf("%d", &output_scale);
