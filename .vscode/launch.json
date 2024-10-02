@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Temperature Program",
+        "type": "shell",
+        "command": "gcc temperature.c -o temperature && ./temperature",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  
